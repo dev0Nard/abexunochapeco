@@ -4,36 +4,210 @@
     <meta charset="UTF-8">
     <title>ABEX SITE</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/slide/slide.css">
 
 </head>
     <!-- |-|-|-|-|-|-|-|-| CORPO |-|-|-|-|-|-|-|-| -->
 <body>
     <header id="header">
         
-        <a href="#text1" class="logo">LOGO</a>
+        <a href="#text1" class="logo"><img src="img/nano-tecnologia.svg">LOGO</a>
         
         <div id="toggle"></div>
         <div id="navbar">
 
             <ul>
                 <li><a href="#text1">Início</a></li>
-                <li><a href="#text2">Conteúdos</a></li>
+                <li><a href="#Conteudos">Conteúdos</a></li>
                 <li><a href="#text3">Referências</a></li>
-                <li><a href="#text4">Quem Somos</a></li>
+                <li><a href="#quemsomos">Quem Somos</a></li>
                 <li><a href="#text5">Apoiadores</a></li>
             </ul>
 
         </div>
     </header>
 
-    <section id="text1">INÍCIO</section>
-    <section id="text2">Conteúdos</section>
+    <section id="text1">
+
+      <input type="radio" id="s-1" name="slider-control" checked="checked">
+      <input type="radio" id="s-2" name="slider-control">
+      <input type="radio" id="s-3" name="slider-control">
+
+        <div class="js-slider">
+
+          <figure class="js-slider_item img-1">
+            <div class="js-slider_img">
+              <img class="c-img-w-full" src="https://picsum.photos/2000/1000/?random=7" alt="">
+            </div>
+            <figcaption class="wo-caption">
+              <h3 class="wo-h3">
+                <div class="c-label">Lorem Ipsum</div>
+                <br class="view-sm mb-s">Lorem Ipsum</h3>
+              <ul class="wo-credit">
+                <li>industry. Lorem Ipsum has been the industry(1789-1800)</li>
+                <li>industry. Lorem Ipsum has been the industry</li>
+                <li>Ipsum 
+                  <span class="c-txt-s">Ipsum </span></li>
+              </ul>
+            </figcaption>
+          </figure>
+
+          <figure class="js-slider_item img-2">
+            <div class="js-slider_img">
+              <img class="c-img-h-full" src="https://picsum.photos/2000/1000/?random=6" alt=""></div>
+            <figcaption class="wo-caption">
+              <h3 class="wo-h3">Lorem Ipsum</h3>
+              <ul class="wo-credit">
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li></ul>
+            </figcaption>
+          </figure>
+
+          <figure class="js-slider_item img-3">
+            <div class="js-slider_img">
+              <img class="c-img-h-full" src="https://picsum.photos/2000/1000/?random=5" alt=""></div>
+            <figcaption class="wo-caption">
+              <h3 class="wo-h3">Lorem Ipsum</h3>
+              <ul class="wo-credit">
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li></ul>
+            </figcaption>
+          </figure>
+
+          <div class="js-slider_nav">
+            <label class="js-slider_nav_item s-nav-1 prev" for="s-3"></label>
+            <label class="js-slider_nav_item s-nav-1 next" for="s-2"></label>
+            <label class="js-slider_nav_item s-nav-2 prev" for="s-1"></label>
+            <label class="js-slider_nav_item s-nav-2 next" for="s-3"></label>
+            <label class="js-slider_nav_item s-nav-3 prev" for="s-2"></label>
+            <label class="js-slider_nav_item s-nav-3 next" for="s-1"></label>
+          </div>
+
+          <div class="js-slider_indicator">
+            <div class="js-slider-indi indi-1"></div>
+            <div class="js-slider-indi indi-2"></div>
+            <div class="js-slider-indi indi-3"></div>
+          </div>
+
+
+        </div>
+
+    </section>
+    <section id="Conteudos">
+
+
+      <div class="center">
+        <div class="property-card">
+          <a href="#">
+            <div class="property-image" style="background-image:url('https://picsum.photos/2000/3000/?random=4');">
+              <div class="property-image-title">
+              </div>
+            </div></a>
+          <div class="property-description">
+            <h5> T1 </h5>
+            <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="center">
+        <div class="property-card">
+          <a href="#">
+            <div class="property-image" style="background-image:url('https://picsum.photos/200/300/?random=3');">
+              <div class="property-image-title">
+              </div>
+            </div></a>
+          <div class="property-description">
+            <h5> T2 </h5>
+            <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="center">
+        <div class="property-card">
+          <a href="#">
+            <div class="property-image" style="background-image:url('https://picsum.photos/200/300/?random=2');">
+              <div class="property-image-title">
+              </div>
+            </div></a>
+          <div class="property-description">
+            <h5> T3 </h5>
+            <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="center">
+        <div class="property-card">
+          <a href="#">
+            <div class="property-image" style="background-image:url('https://picsum.photos/200/300/?random=1');">
+              <div class="property-image-title">
+              </div>
+            </div></a>
+          <div class="property-description">
+            <h5> T4 </h5>
+            <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="pagination-wrapper">
+
+        <svg class="btn btn--prev" height="50" viewBox="0 0 24 24" width="50" xmlns="http://www.w3.org/2000/svg">
+          <path d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"/>
+          <path d="M0-.5h24v24H0z" fill="none"/>
+        </svg>
+        
+        <div class="pagination-container">
+          <div class="little-dot  little-dot--first"></div>
+          <div class="little-dot">
+            <div class="big-dot-container">
+              <div class="big-dot"></div>
+            </div>
+          </div>
+          <!--<div class="little-dot  little-dot--last"></div>-->
+        </div>
+        
+        <!--<svg class="btn btn--next" height="50" viewBox="0 0 24 24" width="50" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/>
+          <path d="M0-.25h24v24H0z" fill="none"/>
+        </svg>
+      -->
+      </div>
+
+
+    </section>
     <section id="text3">Referências</section>
-    <section id="text4">Quem Somos</section>
+    <section id="quemsomos">
+
+
+      <div class="qsomos">
+        <h1>Lorem ipsum</h1>
+  
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+
+        <hr>
+
+        <p>Later that summer I got to go to Wisconsin Dells with my family. We stayed at The Wilderness which has both inside and outside water parks. My mom was scared to go down the four-person funnel ride, but she did anyway and ended up liking it.</p>
+
+        <p>cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <hr>
+
+        <p>cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      </div>
+
+
+    </section>
     <section id="text5">Apoiadores</section>
 
 
     <!-- |-|-|-|-|-|-|-|-| SCRIPT |-|-|-|-|-|-|-|-| -->
-    <script src="js/script.js"></script>
+    <script src="/js/script.js"></script>
+    <script src="/js/paginator.js"></script>
 </body>
 </html>
