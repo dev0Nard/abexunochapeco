@@ -1,23 +1,28 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>ABEX SITE</title>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+<title>Conteúdos</title>
+    <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/slide/slide.css">
+    <link href='/cont/conteudos.css' rel='stylesheet'>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js'></script>
 </head>
-    <!-- |-|-|-|-|-|-|-|-| CORPO |-|-|-|-|-|-|-|-| -->
-<body>
+<body oncontextmenu='return false' class='snippet-body'>
+
     <header id="header">
         
-        <a href="/index.html" class="logo"><img src="img/nano-tecnologia.svg">LOGO</a>
+        <a href="/index.html" class="logo"><img src="/img/nano-tecnologia.svg">LOGO</a>
         
         <div id="toggle"></div>
         <div id="navbar">
 
             <ul>
-                <li><a href="#text1">Início</a></li>
+                <li><a href="/index.html">Início</a></li>
                 <li><a href="/cont/conteudos.html">Conteúdos</a></li>
                 <li><a href="/referencias.html">Referências</a></li>
                 <li><a href="/quemsomos.html">Quem Somos</a></li>
@@ -28,75 +33,90 @@
     </header>
 
     <section id="text1">
+        
 
-      <input type="radio" id="s-1" name="slider-control" checked="checked">
-      <input type="radio" id="s-2" name="slider-control">
-      <input type="radio" id="s-3" name="slider-control">
+<main class="main">
 
-        <div class="js-slider">
+  <ul class="main__slider main__slider--countries">
 
-          <figure class="js-slider_item img-1">
-            <div class="js-slider_img">
-              <img class="c-img-w-full" src="https://picsum.photos/2000/1000/?random=7" alt="">
-            </div>
-            <figcaption class="wo-caption">
-              <h3 class="wo-h3">
-                <div class="c-label">Lorem Ipsum</div>
-                <br class="view-sm mb-s">Lorem Ipsum</h3>
-              <ul class="wo-credit">
-                <li>industry. Lorem Ipsum has been the industry(1789-1800)</li>
-                <li>industry. Lorem Ipsum has been the industry</li>
-                <li>Ipsum 
-                  <span class="c-txt-s">Ipsum </span></li>
-              </ul>
-            </figcaption>
-          </figure>
+    <li class="main__item">
+      <div class="main__image" style="background-image:url('https://images.unsplash.com/photo-1536420124982-bd9d18fc47ed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1001&q=80')"></div>
+      <h1 class="main__title">Finland</h1>
+    </li>
 
-          <figure class="js-slider_item img-2">
-            <div class="js-slider_img">
-              <img class="c-img-h-full" src="https://picsum.photos/2000/1000/?random=6" alt=""></div>
-            <figcaption class="wo-caption">
-              <h3 class="wo-h3">Lorem Ipsum</h3>
-              <ul class="wo-credit">
-                <li>Lorem Ipsum</li>
-                <li>Lorem Ipsum</li>
-                <li>Lorem Ipsum</li></ul>
-            </figcaption>
-          </figure>
+    <li class="main__item">
+      <div class="main__image" style="background-image:url('https://images.unsplash.com/photo-1508500709478-37a0e8d6603c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80')"></div>
+      <h1 class="main__title">Sweden</h1>
+    </li>
 
-          <figure class="js-slider_item img-3">
-            <div class="js-slider_img">
-              <img class="c-img-h-full" src="https://picsum.photos/2000/1000/?random=5" alt=""></div>
-            <figcaption class="wo-caption">
-              <h3 class="wo-h3">Lorem Ipsum</h3>
-              <ul class="wo-credit">
-                <li>Lorem Ipsum</li>
-                <li>Lorem Ipsum</li>
-                <li>Lorem Ipsum</li></ul>
-            </figcaption>
-          </figure>
+    <li class="main__item">
+      <div class="main__image" style="background-image:url('https://images.unsplash.com/photo-1544085311-11a028465b03?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80')"></div>
+      <h1 class="main__title">Norway</h1>
+    </li>
 
-          <div class="js-slider_nav">
-            <label class="js-slider_nav_item s-nav-1 prev" for="s-3"></label>
-            <label class="js-slider_nav_item s-nav-1 next" for="s-2"></label>
-            <label class="js-slider_nav_item s-nav-2 prev" for="s-1"></label>
-            <label class="js-slider_nav_item s-nav-2 next" for="s-3"></label>
-            <label class="js-slider_nav_item s-nav-3 prev" for="s-2"></label>
-            <label class="js-slider_nav_item s-nav-3 next" for="s-1"></label>
-          </div>
+    <li class="main__item">
+      <div class="main__image" style="background-image:url('https://images.unsplash.com/photo-1531168556467-80aace0d0144?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80')"></div>
+      <h1 class="main__title">Iceland</h1>
+    </li>
 
-          <div class="js-slider_indicator">
-            <div class="js-slider-indi indi-1"></div>
-            <div class="js-slider-indi indi-2"></div>
-            <div class="js-slider-indi indi-3"></div>
-          </div>
+    <li class="main__item">
+      <div class="main__image" style="background-image:url('https://images.unsplash.com/photo-1535923766910-e7143cd1a47c?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80')"></div>
+      <h1 class="main__title">Denmark</h1>
+    </li>
+  </ul>
 
+  <ul class="main__slider main__slider--sports" style="visibility:hidden;">
 
-        </div>
+    <li class="main__item">
+      <div class="main__image" style="background-image:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2101521/golf.svg')"></div>
+      <h1 class="main__title">Golf</h1>
+    </li>
+
+    <li class="main__item">
+      <div class="main__image" style="background-image:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2101521/basketball.svg')"></div>
+      <h1 class="main__title">Basketball</h1>
+    </li>
+
+    <li class="main__item">
+      <div class="main__image" style="background-image:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2101521/running.svg')"></div>
+      <h1 class="main__title">Running</h1>
+    </li>
+
+    <li class="main__item">
+      <div class="main__image" style="background-image:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2101521/football.svg')"></div>
+      <h1 class="main__title">Football</h1>
+    </li>
+
+    <li class="main__item">
+      <div class="main__image" style="background-image:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2101521/tennis.svg')"></div>
+      <h1 class="main__title">Tennis</h1>
+    </li>
+  </ul>
+
+  <p class="main__credit">Made by <a href="https://supremo.co.uk" target="_blank">Supremo</a></p>
+
+  <a class="main__info" href="#">
+      <svg class="main__info-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"></circle>
+        <line x1="12" y1="16" x2="12" y2="12"></line>
+        <line x1="12" y1="8" x2="12" y2="8"></line>
+      </svg>
+    </a>
+
+  <p class="main__info-window">A quick experiment with variable fonts. Variables fonts look to have an interesting future, providing the ability to use all variations of a typeface in a single compressed file and being able to animate between these variations.</p>
+
+  <div class="main__options">
+    <a class="main__option countries active" href="#">Countries</a>
+    <a class="main__option sports" href="#">Sports</a>
+  </div>
+
+</main>
+
 
     </section>
-    <!-- |-|-|-|-|-|-|-|-| SCRIPT |-|-|-|-|-|-|-|-| -->
-    <script src="/js/script.js"></script>
-    <script src="/js/paginator.js"></script>
+
 </body>
+<script src="js/script.js"></script>
+<script src="js/paginator.js"></script>
+
 </html>
