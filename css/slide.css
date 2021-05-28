@@ -13,12 +13,12 @@
   input[type="radio"] {
     display: none;
   }
+  
   .js-slider {
     position: relative;
     width: 80%;
     height: 100vh;
     margin: 0 auto;
-    margin-top: 60px;
   }
   .js-slider_item {
     position: absolute;
