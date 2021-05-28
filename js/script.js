@@ -15,5 +15,7 @@ toggle.onclick = function(){
 }
 
 
-//slides
+//pagcont
+
+
 

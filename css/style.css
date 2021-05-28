@@ -13,16 +13,17 @@ body{
     min-height: 100vh;
 }
 
-header{
-    position: fixed;
-    top: 0;
-    right: 0;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.06);
-    z-index: 1000;
+header {
+  position: fixed;
+  height: 60px;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 5px 25px rgb(0 0 0 / 6%);
+  z-index: 1000;
 }
 
 .logo{
@@ -456,10 +457,10 @@ p
         display: flex;
         justify-content: center;
         align-items: center;
-        height: calc(100vh - 60px);
+        height: calc(100% - 60px);
     }
     #navbar.active{
-        height: calc(100vh - 60px);
+        height: calc(100% - 60px);
         right: 0%;
         width: 100%;
     }
