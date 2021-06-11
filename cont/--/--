@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+<title>Bancos Digitais</title>
+    <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href='/cont/conteudos.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/cont/--bancos-digitais/pagcont.css">
+
+
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js'></script>
+</head>
+<body oncontextmenu='return false' class='snippet-body'>
+
+    <header id="header">
+        
+        <a href="/index.html" class="logo"><img src="/img/nano-tecnologia.svg">LOGO</a>
+        
+        <div id="toggle"></div>
+        <div id="navbar">
+
+            <ul>
+                <li><a href="/index.html">Início</a></li>
+                <li><a href="/cont/conteudos.html">Conteúdos</a></li>
+                <li><a href="/qsomos/quemsomos.html">Quem Somos</a></li>
+                <li><a href="/referencias.html">Referências</a></li>
+                <li><a href="/apoiadores.html">Apoiadores</a></li>
+            </ul>
+
+        </div>
+    </header>
+
+    <div class="corpo">
+
+        <h1></h1>
+        <h4></h4>
+  
+        <p></p>
+          
+        <p></p>
+        
+        <hr>
+        
+        <p></p>
+        
+        <p></p>
+        
+        <hr>
+        
+        <p></p>
+        <hr>
+        <a href="https://www.google.com/amp/s/1bilhao.com.br/destaque/bancos-digitais-saiba-quais-sao-as-vantagens-e-desvantagens/">Site - 1Bilhão - Bancos digitais: saiba quais são as vantagens e desvantagens</a>
+        <hr>
+        <a href=""https://andrebona.com.br/7-vantagens-e-desvantagens-dos-bancos-digitais/>Site - Andre Bono -  7 Vantagens e desvantagens dos bancos digitais</a>
+        
+    </div>
+
+</body>
+<script src="/js/script.js"></script>
+<script src="/js/paginator.js"></script>
+
+</html>

@@ -92,7 +92,7 @@ header {
     overflow: hidden;
 }
 #navbar.active{
-    width: 780px;
+    width: 480px;
 }
 #navbar ul{
     position: relative;

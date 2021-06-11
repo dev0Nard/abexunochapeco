@@ -1,7 +1,12 @@
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 
 body { background-color: #eee; }
-
+.corpo{
+    font-size: 150%;
+}
+.corpo p{
+    font-size: 20px;
+}
 .footer-social-links{
     font-size: 14px;
   text-align: center;
